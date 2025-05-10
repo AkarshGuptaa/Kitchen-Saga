@@ -7,13 +7,13 @@
 
 **Kitchen Saga** is a single-player, fully voice-controlled cooking simulator designed with accessibility in mind — specifically for players who cannot use traditional input devices such as a keyboard, mouse, or controller.
 
-Inspired by *Overcooked*, you play as a solo chef navigating a busy kitchen by shouting commands like `"bun"`, `"chicken"`, `"gas"`, `"cheese"`, `"board"` and more to teleport, interact, cook, and serve recipes. Every order is a surprise, and the goal is to complete as many recipes as possible before time runs out.
+Inspired from traditional Cooking Simulator Games, you play as a solo chef navigating a busy kitchen by shouting commands like `"bun"`, `"chicken"`, `"gas"`, `"cheese"`, `"board"` and more to teleport, interact, cook, and serve recipes. Every order is a surprise, and the goal is to complete as many recipes as possible before time runs out.
 
 Kitchen Saga provides a **fun, fast-paced, and empowering experience for all — no hands needed.**
 
 ---
 
-## 🗂 File Overview
+## 🗂 Game Input Info
 
 - `GameInput.cs`  
   Core script handling player input via both keyboard and voice recognition using Unity's `KeywordRecognizer`.  
@@ -25,6 +25,7 @@ Kitchen Saga provides a **fun, fast-paced, and empowering experience for all —
 
 ## 🎮 How to Play (Voice Commands)
 
+Press START
 Speak one of the following commands to control your character:
 
 | **Command** | **Action (Teleports to / Interacts with)**        |
@@ -65,6 +66,7 @@ Speak one of the following commands to control your character:
 ## ⚙️ Technology Used
 
 - **Unity Engine** (C#)
+- JetBrain's Rider
 - `UnityEngine.Windows.Speech` for voice recognition
 - Custom voice command → key simulation system
 - Rigidbody-based teleportation and motion control
@@ -74,10 +76,11 @@ Speak one of the following commands to control your character:
 ## 📦 Setup Instructions
 
 1. Open the project in **Unity**.
-2. Attach `GameInput.cs` to a GameObject in your scene.
-3. Tag your **player GameObject** as `"Player"`.
+2. Navigate to the Homepage GameScene.
+3. Hit **Play** and start speaking commands!
 4. Make sure your **microphone is working** and permitted by your OS.
-5. Hit **Play** and start speaking commands!
+5. Read the Instructions on the screen
+6. Enjoy!
 
 > 🎯 Optional: Modify teleport coordinates or add/remove commands in `GameInput.cs` for custom kitchen layouts.
 
@@ -85,9 +88,8 @@ Speak one of the following commands to control your character:
 
 ## 🙌 Credits
 
-- **Game by:** Akarsh  
+- **Game by:** Akarsh Gupta
 - **Voice Input Logic:** Powered by Unity’s built-in speech recognition  
-- 💖 Special thanks to anyone supporting accessible game design.
 
 ---
 
