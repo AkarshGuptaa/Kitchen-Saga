@@ -94,7 +94,7 @@ Speak one of the following commands to control your character:
 ## 📧 Contact
 
 For support, feedback, or collaboration, reach out at:  
-**[Your GitHub | Email | Portfolio link here]**
+**[GitHub.com/AkarshGuptaa | akarshguptaaa@gmail.com]**
 
 ---
 
